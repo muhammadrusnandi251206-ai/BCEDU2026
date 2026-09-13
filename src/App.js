@@ -204,7 +204,7 @@ function App() {
         {halaman==="beranda" && (
           <div style={{textAlign:"center", marginTop:"2rem"}}>
             <h1 style={{fontSize:"2.5rem", marginBottom:"1rem"}}>Selamat Datang di BCEDUFAIR 2026</h1>
-            <p style={{fontSize:"1.1rem", opacity:0.9, maxWidth:700, margin:"0 auto 2rem"}}>Sistem Informasi Pengelolaan Kegiatan & Anggaran</p>
+            <p style={{fontSize:"1.1rem", opacity:0.9, maxWidth:700, margin:"0 auto 2rem"}}>Broadcast Beyond Boundaries</p>
             <button onClick={()=>setHalaman("pendaftaran")} style={{padding:"0.9rem 2rem", fontSize:"1rem", background:"#f97316", color:"#fff", border:"none", borderRadius:"8px", cursor:"pointer", marginRight:"1rem"}}>🎮 Daftar E-Sport</button>
             {!sudahLogin && <button onClick={()=>setHalaman("login")} style={{padding:"0.9rem 2rem", fontSize:"1rem", background:"transparent", color:"#fff", border:"2px solid #fff", borderRadius:"8px", cursor:"pointer"}}>🔐 Masuk Panitia</button>}
           </div>
