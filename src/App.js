@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://nandi.pythonanywhere.com";
 
 function App() {
   const [halaman, setHalaman] = useState("beranda");
